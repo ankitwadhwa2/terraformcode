@@ -1,7 +1,7 @@
 provider "aws" {
     region = "us-east-2"
-    access_key = "AKIA52GHA425SMHPJRTS"
-    secret_key ="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"
+    access_key = "<Enter ACEES KEy>"
+    secret_key ="<Enter Secret KEY>"
 }
 # Query all avilable Availibility Zone
 data "aws_availability_zones" "available" {}
